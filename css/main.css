@@ -9,4 +9,14 @@
     align-items: center;
     flex-direction: column;
     font-size: x-large;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
 }
