@@ -24,7 +24,7 @@
 
 .content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 iframe {
@@ -33,9 +33,10 @@ iframe {
 }
 
 h2 {
-    padding: 50px;
+    margin-left: 50px;
 }
 
 p {
-    padding: 50px;
+    margin-left: 50px;
 }
+
