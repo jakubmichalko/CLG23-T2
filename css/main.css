@@ -15,8 +15,27 @@
 .container{
     display: grid;
     grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 3fr 8fr;
     grid-template-areas: 
-    "header"
-    "main"
-    "footer";
+    "header header"
+    "main rightSide"
+    "footer footer";
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+iframe {
+     padding: 50px;
+
+}
+
+h2 {
+    padding: 50px;
+}
+
+p {
+    padding: 50px;
 }

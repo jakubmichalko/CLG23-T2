@@ -4,6 +4,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url("../images/pozadí.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .container {
@@ -34,4 +39,12 @@ grid-template-areas:
     justify-content: space-between;
 }
 
+.main{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.header{
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.75);
+}
 img {width: 300px }
