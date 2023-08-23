@@ -1,5 +1,5 @@
 .mainContainer {
-    background-color: rgb(254, 254, 252);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,10 +8,30 @@
 
 .container {
 display: grid;
-/* grid-template-columns: 3fr 2fr;
-grid-template-rows: 1fr 5fr 1fr ; */
+grid-template-rows: 3fr 2fr;
+grid-template-columns: 1fr 3fr 1fr;
+width: 100vw;
+height: 100vw;
+top: 0;
 grid-template-areas: 
 "header header"
-"content sidebar"
+"main rightSide"
 "footer footer";
 }
+.menuPanel{
+    grid-area: header;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    justify-content: space-around;
+    color: var(--clr-font-light);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+img {width: 300px }
