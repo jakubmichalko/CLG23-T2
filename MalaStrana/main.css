@@ -4,6 +4,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("../images/petrin.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -21,11 +25,25 @@
 
 .menuPanel{
     grid-area: header;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row  ;
     font-size: 1.7rem;
     font-family: sans-serif;
     justify-content: space-around;
     color: var(--clr-font-light);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+img{ 
+    width: 300px;
 }
