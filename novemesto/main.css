@@ -4,10 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("../images/pozadí.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 
 }
 
