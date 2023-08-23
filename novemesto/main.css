@@ -23,9 +23,10 @@ grid-template-areas:
 "main rightSide"
 "footer footer";
 }
+
 .menuPanel{
     grid-area: header;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     flex-direction: row;
     font-size: 1.7rem;
@@ -41,17 +42,25 @@ grid-template-areas:
     width: 100vw;
 }
 
-.main{
-    background-color: rgba(255, 255, 255, 0.75);
-}
-
 .header{
     width: 100vw;
     background-color: rgba(255, 255, 255, 0.75);
-    justify-content: center;
 }
 
 .rightSide{
     justify-content: center;
 }
-img {width: 350px}
+img {width: 300px}
+
+img {
+    padding: 50px;
+
+}
+
+h2 {
+   margin-left: 50px;
+}
+
+p {
+   margin-left: 50px;
+}
