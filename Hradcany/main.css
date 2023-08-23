@@ -40,6 +40,14 @@
     justify-content: space-between;
 }
 
+.main{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.header{
+    background-color: white;
+}
 
 img {width: 300px}
 
