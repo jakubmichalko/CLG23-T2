@@ -1,5 +1,11 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Dosis-Medium.ttf);
+  }
+  
+
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: myFirstFont, sans-serif;
 }
