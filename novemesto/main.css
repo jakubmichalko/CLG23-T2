@@ -45,7 +45,6 @@ grid-template-areas:
 .header{
     width: 100vw;
     background-color: rgba(255, 255, 255, 0.75);
-    justify-content: center;
 }
 
 .rightSide{
