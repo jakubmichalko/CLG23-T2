@@ -21,9 +21,9 @@
     height: 100vh;
     top: 0;
     grid-template-areas:
-    "header header"
-    "main rightSide"
-    "footer footer";
+    "header header header"
+    "main main rightSide"
+    "footer footer footer";
 }
 
 .menuPanel{
@@ -48,6 +48,7 @@
     display: grid;
     flex-direction: column;
     justify-content: center;
+    background-color: rgba(255, 255, 255, 0.75);
 }
  
 img {
@@ -72,4 +73,15 @@ img {
 .section-container {
     width: 900px;
 }
+img {
+    padding: 50px;
 
+}
+
+h2 {
+   margin-left: 50px;
+}
+
+p {
+   margin-left: 50px;
+}
