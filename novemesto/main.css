@@ -26,7 +26,7 @@ grid-template-areas:
 
 .menuPanel{
     grid-area: header;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     flex-direction: row;
     font-size: 1.7rem;
@@ -45,7 +45,6 @@ grid-template-areas:
 .header{
     width: 100vw;
     background-color: rgba(255, 255, 255, 0.75);
-    justify-content: center;
 }
 
 .rightSide{
