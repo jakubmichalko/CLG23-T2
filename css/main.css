@@ -68,5 +68,14 @@ p {
   margin-right: auto;
 }
 
+.header{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+}
 
+.menu{
+  display: flex;
+  justify-content: space-around;
+}
 
