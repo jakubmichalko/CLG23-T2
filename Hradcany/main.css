@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
+  font-size: large;
 }
 
 .container {
@@ -88,4 +89,16 @@ img {
   color: white;
   display: flex;
   justify-content: space-around;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../css/Dosis-Medium.ttf);
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: myFirstFont, sans-serif;
 }
