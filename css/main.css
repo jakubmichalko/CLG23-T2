@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 .mainContainer {
   background-position: center;
   background-repeat: no-repeat;
@@ -100,6 +103,8 @@ p {
   z-index: 10;
   font-size: large;
 }
-
-
+ 
+.menu{
+  color: black;
+}
 
