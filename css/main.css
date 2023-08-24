@@ -108,3 +108,6 @@ p {
   color: black;
 }
 
+a:hover {
+  background-color: rgb(150, 236, 174);
+}
