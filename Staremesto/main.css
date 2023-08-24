@@ -116,21 +116,21 @@ img {
     justify-content: space-around;
   }
 
-  .footer {
+.footer {
     width: 100vw;
     background-color: rgb(0, 0, 0);
     color: white;
     display: flex;
     justify-content: space-around;
-  }
+}
 
-  .footer p img {
+.footer p img {
     margin-right: 20px;
     padding: 0;
     width: 40px;
-  }
+}
 
-  .footer p {
-    display: flex;
-    align-items: center;
-  }
+.footer p {
+  display: flex;
+  align-items: center;
+ }
