@@ -68,9 +68,10 @@ p {
 }
 
 .header{
+  padding: 20px;
   display: flex;
-flex-direction: column;
-justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .header{
