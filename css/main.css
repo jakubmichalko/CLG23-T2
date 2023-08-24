@@ -68,6 +68,11 @@ p {
   margin-right: auto;
 }
 
+.header{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+}
 
 .header{
   display: flex;
@@ -78,5 +83,6 @@ p {
 .menu{
     display: flex;
     justify-content: space-around;
+
 }
 
