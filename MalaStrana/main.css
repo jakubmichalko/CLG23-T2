@@ -42,7 +42,7 @@
 }
 
 .header{
-    display: grid;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -70,4 +70,9 @@ img {
 
 .section-container {
     width: 900px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
 }
