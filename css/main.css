@@ -114,3 +114,13 @@ p {
   font-size: large;
 }
 
+.footer p img {
+  margin-right: 20px;
+  padding: 0;
+  width: 40px;
+}
+
+.footer p {
+display: flex;
+align-items: center;
+}
