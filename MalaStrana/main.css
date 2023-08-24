@@ -83,3 +83,15 @@ img {
     margin-right: auto;
 }
 
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../css/Dosis-Medium.ttf);
+  }
+  
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: myFirstFont, sans-serif;
+}
