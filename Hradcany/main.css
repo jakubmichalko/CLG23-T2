@@ -83,7 +83,7 @@ img {
 
 .footer {
   width: 100vw;
-  height: 100vh;
+  height: 100px;
   background-color: black;
   font-color: white;
   display: flex;
