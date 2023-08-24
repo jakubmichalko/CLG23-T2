@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 .mainContainer {
   background-position: center;
   background-repeat: no-repeat;
@@ -67,9 +70,10 @@ p {
 }
 
 .header{
+  padding: 20px;
   display: flex;
-flex-direction: column;
-justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .header{
@@ -103,6 +107,4 @@ justify-content: center;
 .menu{
   color: black;
 }
-
-
 

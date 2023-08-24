@@ -1,3 +1,6 @@
+a {
+    text-decoration: none;
+}
 .mainContainer {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -8,6 +11,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin: 0;
     font-size: large;
 
@@ -44,6 +48,7 @@ grid-template-areas:
 }
 
 .header{
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
