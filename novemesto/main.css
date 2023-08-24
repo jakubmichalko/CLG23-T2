@@ -85,4 +85,12 @@ img {
     justify-content: space-around;
 }
   
-  
+h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ 
+ p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
