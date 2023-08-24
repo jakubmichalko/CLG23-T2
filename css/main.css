@@ -89,4 +89,15 @@ justify-content: center;
   z-index: 1;
 }
 
+.footer {
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+
 
