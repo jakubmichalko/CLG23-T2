@@ -48,7 +48,7 @@
 
 .content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 iframe {
@@ -69,4 +69,14 @@ p {
 }
 
 
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
 
