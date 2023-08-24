@@ -123,3 +123,14 @@ body {
     display: flex;
     justify-content: space-around;
   }
+
+  .footer p img {
+    margin-right: 20px;
+    padding: 0;
+    width: 40px;
+}
+
+.footer p {
+  display: flex;
+  align-items: center;
+ }

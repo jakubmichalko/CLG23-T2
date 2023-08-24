@@ -111,3 +111,14 @@ p {
 a:hover {
   background-color: rgb(150, 236, 174);
 }
+
+.footer p img {
+  margin-right: 20px;
+  padding: 0;
+  width: 40px;
+}
+
+.footer p {
+display: flex;
+align-items: center;
+}
