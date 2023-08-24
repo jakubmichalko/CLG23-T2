@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
+  font-size: large;
 }
 
 .container {
@@ -81,9 +82,32 @@ img {
   justify-content: space-around;
 }
 
+<<<<<<< HEAD
 .header{
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.75);
 }
+=======
+.footer {
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../css/Dosis-Medium.ttf);
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: myFirstFont, sans-serif;
+}
+>>>>>>> 3464da3fda64daea67b5f5bf13f9f41922299800
